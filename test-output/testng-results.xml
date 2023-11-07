@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-25T09:09:14 CEST" name="Default suite" finished-at="2023-08-25T09:09:14 CEST" duration-ms="514">
+    <groups>
+    </groups>
+    <test started-at="2023-08-25T09:09:14 CEST" name="Default test" finished-at="2023-08-25T09:09:14 CEST" duration-ms="514">
+      <class name="cubes.test.TestUpdateTag">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="setUpBeforeClass" finished-at="2023-08-25T09:09:14 CEST" duration-ms="476" status="FAIL">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:95)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89)
+at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43)
+at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at cubes.test.TestUpdateTag.setUpBeforeClass(TestUpdateTag.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Unknown HttpClient factory jdk-http-client
+at org.openqa.selenium.remote.http.HttpClient$Factory.create(HttpClient.java:57)
+at org.openqa.selenium.remote.http.HttpClient$Factory.createDefault(HttpClient.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor$DefaultClientFactoryHolder.<clinit>(HttpCommandExecutor.java:57)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="setUp" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1692947354580" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc1TestUpdateEmptyTagName()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="tc1TestUpdateEmptyTagName" finished-at="2023-08-25T09:09:14 CEST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:95)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89)
+at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43)
+at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at cubes.test.TestUpdateTag.setUpBeforeClass(TestUpdateTag.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Unknown HttpClient factory jdk-http-client
+at org.openqa.selenium.remote.http.HttpClient$Factory.create(HttpClient.java:57)
+at org.openqa.selenium.remote.http.HttpClient$Factory.createDefault(HttpClient.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor$DefaultClientFactoryHolder.<clinit>(HttpCommandExecutor.java:57)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1TestUpdateEmptyTagName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="tearDown" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1692947354584" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="setUp" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1692947354585" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc2TestUpdateTagWithExistingName()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="tc2TestUpdateTagWithExistingName" finished-at="2023-08-25T09:09:14 CEST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:95)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89)
+at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43)
+at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at cubes.test.TestUpdateTag.setUpBeforeClass(TestUpdateTag.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Unknown HttpClient factory jdk-http-client
+at org.openqa.selenium.remote.http.HttpClient$Factory.create(HttpClient.java:57)
+at org.openqa.selenium.remote.http.HttpClient$Factory.createDefault(HttpClient.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor$DefaultClientFactoryHolder.<clinit>(HttpCommandExecutor.java:57)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2TestUpdateTagWithExistingName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="tearDown" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1692947354587" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="setUp" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1692947354588" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc3TestUpdateTagName()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="tc3TestUpdateTagName" finished-at="2023-08-25T09:09:14 CEST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:95)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:89)
+at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:43)
+at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:115)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:105)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at cubes.test.TestUpdateTag.setUpBeforeClass(TestUpdateTag.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Unknown HttpClient factory jdk-http-client
+at org.openqa.selenium.remote.http.HttpClient$Factory.create(HttpClient.java:57)
+at org.openqa.selenium.remote.http.HttpClient$Factory.createDefault(HttpClient.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor$DefaultClientFactoryHolder.<clinit>(HttpCommandExecutor.java:57)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3TestUpdateTagName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="tearDown" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1692947354590" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:cubes.test.TestUpdateTag@795cd85e]" started-at="2023-08-25T09:09:14 CEST" name="tearDownAfterClass" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1692947354591" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- cubes.test.TestUpdateTag -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
